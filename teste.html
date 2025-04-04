@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div><p class="item">Sexo</p></div>
+      <div>
+        <p class="item">Sexo 2</p>
+        <p class="item">Sexo 2</p>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <button class="cock">Enviar Sexo</button>
+      </div>
+    </main>
+  </body>
+  <style>
+    body {
+      margin: 0;
+    }
+
+    div.container {
+      margin: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    button.cock {
+      width: 200px;
+      height: 100px;
+      font-size: larger;
+      font-weight: bold;
+      border-radius: 20px;
+      background-color: rgb(201, 0, 0);
+      color: white;
+      border: 0;
+      box-shadow: 0 15px rgb(66, 0, 0);
+      transition: 0.15s;
+    }
+
+    button.cock:active {
+      box-shadow: 0 0px rgb(66, 0, 0);
+      transform: translate(0, 15px);
+    }
+
+    .item {
+      display: inline-block;
+    }
+    header {
+      padding: 20px;
+      height: 30px;
+      background-color: aqua;
+      top: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  </style>
+</html>

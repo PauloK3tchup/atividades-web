@@ -1,0 +1,28 @@
+/* ====================
+    GERAL
+   ====================*/
+
+body {
+  background: white;
+  color: #21243d;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #21243d;
+}
+/* 
+a:hover {
+  color: #ff6464;
+} */
+
+/* ====================
+    ESPECÍFICO
+   ====================*/
+
+header ul li {
+  text-align: center;
+  padding: 10px 0 10px 0;
+}
